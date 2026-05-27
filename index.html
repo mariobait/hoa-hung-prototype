@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Find Fresh Soy Near You | Proposed Hoa Hung Concept</title>
+<meta name="description" content="Academic prototype for a proposed Hoa Hung search campaign featuring soy bubble tea and tofu pudding in Belmore, Cabramatta and Hurstville.">
+<style>
+:root{--y:#f6c515;--ink:#161616;--cream:#fffaf0;--muted:#625e56;--line:#e6dcc6}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--ink);line-height:1.45}
+.notice{background:var(--ink);color:#fff;text-align:center;padding:10px 16px;font-size:12px}
+header{max-width:1080px;margin:auto;padding:20px 22px;display:flex;justify-content:space-between;align-items:center}
+.logo{display:flex;gap:10px;align-items:center}.logo-mark{width:46px;height:46px;border-radius:50%;background:var(--y);display:grid;place-items:center;font-size:25px}
+.logo b{display:block;font-size:22px}.logo span{font-size:10px;font-weight:700;letter-spacing:1.5px;color:var(--muted)}
+nav a{margin-left:22px;text-decoration:none;color:var(--ink);font-weight:700;font-size:14px}
+.hero{max-width:1080px;margin:auto;padding:40px 22px 58px;display:grid;grid-template-columns:1fr .95fr;gap:40px;align-items:center}
+.eyebrow{color:#24503b;font-weight:700;letter-spacing:2px;font-size:12px;text-transform:uppercase;margin:0 0 12px}
+h1{font-size:clamp(44px,5vw,64px);line-height:1.03;margin:0 0 20px;letter-spacing:-2px}.accent{background:linear-gradient(transparent 70%,var(--y) 70%)}
+.intro{font-size:18px;color:#4d4942;max-width:490px;margin:0 0 26px}
+.btn{display:inline-block;border-radius:999px;padding:14px 19px;text-decoration:none;font-weight:700;margin:0 9px 9px 0}.primary{background:var(--y);color:var(--ink)}.outline{border:1px solid var(--ink);color:var(--ink);background:#fff}
+.visual{height:490px;border-radius:30px;background:linear-gradient(145deg,#ffe783,var(--y));position:relative;overflow:hidden;padding:28px}
+.pill{background:#fff9;display:inline-block;padding:8px 12px;border-radius:30px;font-size:13px;font-weight:700}
+.products-visual{position:absolute;left:0;right:0;bottom:58px;display:flex;justify-content:center;align-items:end;gap:20px}
+.cup{height:245px;width:137px;border:3px solid #ffffffaa;border-radius:10px 10px 28px 28px;background:#ecd19c;position:relative;box-shadow:0 18px 30px #0002}
+.cup:before{content:"";position:absolute;left:-6px;right:-6px;top:-9px;height:13px;border-radius:18px;background:#fff9}.straw{position:absolute;height:105px;width:9px;right:27px;top:-98px;background:#222;transform:rotate(4deg)}
+.pearls{position:absolute;left:7px;right:7px;bottom:7px;height:54px;background:radial-gradient(circle,#26201c 9px,transparent 10px);background-size:27px 25px}
+.badge{height:70px;width:70px;border-radius:50%;background:var(--y);position:absolute;top:96px;left:32px;text-align:center;padding-top:18px;font-size:10px;font-weight:700}
+.pudding{height:146px;width:124px;background:#fff0cb}.pudding .badge{top:50px;left:26px}.syrup{position:absolute;top:5px;left:8px;right:8px;height:32px;border-radius:50%;background:#bb783e}
+.tag{position:absolute;left:28px;bottom:26px;font-weight:700;font-size:18px}
+.section{max-width:1080px;margin:auto;padding:45px 22px}.section h2{font-size:33px;letter-spacing:-1px;margin:0 0 8px}.sub{color:var(--muted);max-width:640px;margin:0 0 28px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card,.store{background:#fff;border:1px solid var(--line);border-radius:19px;padding:23px}.card{display:flex;gap:17px;align-items:center}.ico{width:68px;height:68px;display:grid;place-items:center;background:#fff1b4;border-radius:17px;font-size:36px}.card h3,.store h3{margin:0 0 5px}.card p,.store p{color:var(--muted);margin:0}
+.offer{margin-top:20px;border-radius:26px;background:var(--ink);color:#fff;padding:31px;display:flex;justify-content:space-between;align-items:center;gap:20px}.offer h2{font-size:29px;color:#fff}.offer p{margin:4px 0 0;color:#d9d5cb}
+.stores{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.store h3{font-size:22px}.store small{background:#fff1b4;padding:4px 8px;border-radius:20px;font-weight:700;display:inline-block;margin-bottom:12px}.store p{margin-bottom:17px}.store a{font-weight:700;color:var(--ink)}
+footer{border-top:1px solid var(--line);margin-top:24px;text-align:center;color:var(--muted);padding:24px;font-size:12px}
+@media(max-width:760px){nav{display:none}.hero{display:block;padding:20px 16px 38px}.visual{margin-top:30px;height:430px}.cards,.stores{grid-template-columns:1fr}.offer{display:block}header,.section{padding-left:16px;padding-right:16px}}
+</style>
+</head>
+<body>
+<div class="notice">Academic campaign prototype only — Proposed digital marketing concept for Hoa Hung Artisan Tofu. Not an official website or active offer.</div>
+<header>
+ <div class="logo"><div class="logo-mark">🌱</div><div><b>Hoa Hung</b><span>PROPOSED CAMPAIGN CONCEPT</span></div></div>
+ <nav><a href="#offer">Trial Offer</a><a href="#stores">Find a Store</a></nav>
+</header>
+<section class="hero">
+ <div>
+  <p class="eyebrow">Search. Find. Sip.</p>
+  <h1>Find Fresh Soy <span class="accent">Near You</span></h1>
+  <p class="intro">Try a fresh soy bubble tea and silky tofu pudding at a proposed Hoa Hung store location near you.</p>
+  <a class="btn primary" href="#stores">Find your nearest store</a><a class="btn outline" href="#offer">View Sip and Spoon Offer</a>
+ </div>
+ <div class="visual">
+  <span class="pill">Proposed Sip and Spoon Trial Offer</span>
+  <div class="products-visual">
+   <div class="cup"><span class="straw"></span><span class="pearls"></span><span class="badge">SOY<br>BUBBLE TEA</span></div>
+   <div class="cup pudding"><span class="syrup"></span><span class="badge">TOFU<br>PUDDING</span></div>
+  </div>
+  <div class="tag">Soy Tasty. Soy Fresh.</div>
+ </div>
+</section>
+<section class="section" id="offer">
+ <p class="eyebrow">Ready-to-consume favourites</p>
+ <h2>Sip and Spoon Trial Offer</h2>
+ <p class="sub">A proposed campaign pairing designed to connect nearby drink and dessert searches with an in-store trial occasion.</p>
+ <div class="cards">
+  <article class="card"><div class="ico">🧋</div><div><h3>Soy Bubble Tea</h3><p>A refreshing soy-based drink with boba or grass jelly.</p></div></article>
+  <article class="card"><div class="ico">🥄</div><div><h3>Tofu Pudding</h3><p>A silky soy dessert for an easy snack occasion.</p></div></article>
+ </div>
+ <div class="offer"><div><h2>Show this offer in store</h2><p>Proposed campaign redemption concept for demonstration only.</p></div><a class="btn primary" href="#stores">Choose a store</a></div>
+</section>
+<section class="section" id="stores">
+ <p class="eyebrow">Find fresh soy nearby</p><h2>Choose your nearest store</h2>
+ <p class="sub">Proposed store-action destination for customers searching for soy drinks, tofu pudding or fresh tofu nearby.</p>
+ <div class="stores">
+  <article class="store"><small>SYDNEY</small><h3>Belmore</h3><p>Fresh soy drinks, desserts and tofu products.</p><a href="#">Get Directions →</a></article>
+  <article class="store"><small>SYDNEY</small><h3>Cabramatta</h3><p>Fresh soy drinks, desserts and tofu products.</p><a href="#">Get Directions →</a></article>
+  <article class="store"><small>SYDNEY</small><h3>Hurstville</h3><p>Fresh soy drinks, desserts and tofu products.</p><a href="#">Get Directions →</a></article>
+ </div>
+</section>
+<footer>Academic campaign prototype only. Proposed digital marketing concept developed for Hoa Hung Artisan Tofu. Not an official Hoa Hung website, active offer or confirmed campaign.</footer>
+</body>
+</html>
